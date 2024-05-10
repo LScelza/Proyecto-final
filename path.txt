@@ -1,0 +1,6 @@
+verdes_01_21 = 'Proyecto-final/Datasets/green_tripdata_2021-01.parquet'
+
+ETL = 'Proyecto-final/ETL/Prueba/ETL.csv'
+
+EDA = 'Proyecto-final/EDA/Prueba/EDA.csv'
+

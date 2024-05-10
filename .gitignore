@@ -1,0 +1,10 @@
+*.JPG
+*.PNG
+*.IMG
+*.json
+*.gz
+/.python_modules/
+**/__pychache__/
+.env
+env/
+env.bak/

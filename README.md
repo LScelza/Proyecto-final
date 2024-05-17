@@ -10,7 +10,7 @@ El cambio climático se ha acelerado a niveles sin precedentes debido a las acti
 
 ## Nombre de la Empresa
 
-**Lumen**
+**Lumen LLC**
 
 ## Nuestro Rol
 
@@ -69,19 +69,19 @@ Realizamos un proceso ETL (Extracción, Transformación y Carga) sobre los sigui
   - **Objetivo**: Preparar datos de recorridos para un análisis detallado.
   - **Metodología**: Extraímos datos de recorridos de taxis, los transformamos para limpiar y estructurar la información, y los cargamos en nuestra base de datos para su análisis posterior.
   - **Detalles**: La extracción se hizo desde la fuente original, transformando los datos para incluir solo las columnas necesarias y normalizar la información. 
-  - [ETL Recorridos](https://github.com/LScelza/Proyecto-final/blob/main/ETL/ETL_recorridos.ipynb)(#)
+  - [ETL Recorridos](https://github.com/LScelza/Proyecto-final/blob/main/ETL/ETL_recorridos.ipynb)
 
 - **ETL sobre el rendimiento de vehículos híbridos enchufables**:
   - **Objetivo**: Procesar datos sobre eficiencia energética y costos operativos.
   - **Metodología**: Extraímos datos sobre el rendimiento de vehículos híbridos enchufables, los transformamos para estandarizar las métricas y los cargamos en la base de datos.
   - **Detalles**: Se incluyó la conversión de unidades de medida y la agregación de datos relevantes como costos de operación y mantenimiento. 
-  - [ETL Rendimiento híbridos enchufables](https://github.com/LScelza/Proyecto-final/blob/main/ETL/ETL_hibridos_enchufables.ipynb)(#)
+  - [ETL Rendimiento híbridos enchufables](https://github.com/LScelza/Proyecto-final/blob/main/ETL/ETL_hibridos_enchufables.ipynb)
 
 - **ETL sobre distribución y disponibilidad de estaciones de carga**:
   - **Objetivo**: Preparar datos sobre la infraestructura de carga para el análisis.
   - **Metodología**: Extraímos datos sobre estaciones de carga, los transformamos para mapear su distribución y capacidad, y los cargamos en nuestra base de datos.
   - **Detalles**: Incluimos la geolocalización de estaciones y la capacidad de carga disponible en cada una.
-  - [ETL Estaciones de carga](https://github.com/LScelza/Proyecto-final/blob/main/ETL/ETL_fuel_charging_stations.ipynb)(#)
+  - [ETL Estaciones de carga](https://github.com/LScelza/Proyecto-final/blob/main/ETL/ETL_fuel_charging_stations.ipynb)
 
 ### 4. Análisis Exploratorio de Datos (EDA)
 
@@ -91,19 +91,19 @@ Para entender mejor los conjuntos de datos y extraer información relevante, rea
   - **Objetivo**: Identificar patrones de viaje y zonas de alta demanda.
   - **Metodología**: Utilizamos técnicas de visualización de datos y estadísticas descriptivas para analizar los datos de recorridos de taxis. Esto incluyó gráficos de dispersión, histogramas y mapas de calor para visualizar las rutas y zonas más frecuentes.
   - **Resultados**: Identificamos patrones de uso durante diferentes horas del día, días de la semana y estaciones del año. También mapeamos las zonas de alta demanda y los tiempos de espera promedio.
-  - [EDA Recorridos](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_recorridos.ipynb)(#)
+  - [EDA Recorridos](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_recorridos.ipynb)
 
 - **EDA sobre el rendimiento de vehículos híbridos enchufables**:
   - **Objetivo**: Evaluar la eficiencia y costos operativos.
   - **Metodología**: Analizamos los datos de rendimiento utilizando gráficos de línea, box plots y análisis de correlación para entender cómo varían los costos y la eficiencia bajo diferentes condiciones de uso.
   - **Resultados**: Determinamos que los vehículos híbridos enchufables tienen una alta eficiencia en entornos urbanos con baja velocidad y frecuentes paradas.
-  - [EDA Rendimiento híbridos enchufables](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_hibridos_enchufables.ipynb)(#)
+  - [EDA Rendimiento híbridos enchufables](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_hibridos_enchufables.ipynb)
 
 - **EDA sobre distribución y disponibilidad de estaciones de carga**:
   - **Objetivo**: Evaluar la cobertura y accesibilidad de las estaciones de carga.
   - **Metodología**: Utilizamos mapas de geolocalización y análisis de densidad para evaluar la distribución de las estaciones de carga en NYC.
   - **Resultados**: Identificamos áreas con buena cobertura y zonas que requieren una mayor infraestructura de carga.
-  - [EDA Estaciones de carga](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_fuel_charging_stations.ipynb)(#)
+  - [EDA Estaciones de carga](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_fuel_charging_stations.ipynb)
 
 ### 5. Análisis Profundo y Conclusiones Preliminares
 
@@ -154,7 +154,7 @@ Para automatizar y mejorar la eficiencia del proceso ETL, utilizamos las siguien
   - **Objetivo**: Automatizar la extracción, transformación y carga de datos.
   - **Metodología**: Desarrollamos funciones en Google Cloud Functions que se activan en base a eventos para extraer datos de diversas fuentes, transformarlos según nuestras necesidades y cargarlos en BigQuery.
   - **Detalles**: Las Cloud Functions fueron programadas para manejar grandes volúmenes de datos de manera eficiente, asegurando que los procesos se ejecuten de manera escalable y sin interrupciones.
-  - [Cloud Functions](https://github.com/LScelza/Proyecto-final/blob/main/Cloud functions)(#)
+  - [Cloud Functions]('https://github.com/LScelza/Proyecto-final/blob/main/Cloud functions')
 
 - **BigQuery para Carga de Datos Transformados**:
   - **Objetivo**: Almacenar y analizar grandes volúmenes de datos transformados.

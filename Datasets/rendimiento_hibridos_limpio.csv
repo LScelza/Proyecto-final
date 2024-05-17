@@ -1,0 +1,100 @@
+,model_year,make,model,vehicle_class,range_1_(miles),recharge_time_(h),city_(l/100_miles),highway_(l/100_miles),combined_(l/100_miles),range_2_(miles),co2(g/miles),total_range_(miles),miles_per_charging hour
+0,2022,Audi,A7 Sportback 55 TFSI e quattro,Mid-size,26.1,3.0,15.29,12.07,13.84,387.2,125.5,408.08,8.7
+1,2022,Audi,Q5 55 TFSI e quattro,Sport utility vehicle: Small,23.0,3.0,15.12,14.16,14.64,369.17,148.03,387.57,7.67
+2,2022,Bentley,Flying Spur Hybrid,Mid-size,21.13,3.0,22.04,17.22,19.79,405.84,251.0,422.74,7.04
+3,2022,BMW,530e xDrive,Mid-size,19.27,3.0,16.89,13.52,15.29,302.05,202.73,317.47,6.42
+4,2022,BMW,745Le xDrive,Full-size,16.78,3.0,19.63,14.64,17.38,270.35,244.57,283.77,5.59
+5,2022,BMW,X3 xDrive30e,Sport utility vehicle: Small,18.02,3.0,17.7,13.84,15.93,318.21,204.34,332.63,6.01
+6,2022,BMW,X5 xDrive45e,Sport utility vehicle: Standard,31.08,5.0,19.63,17.06,18.5,374.15,176.99,399.01,6.22
+7,2022,Chrysler,Pacifica Hybrid,Minivan,31.7,2.0,12.87,12.71,12.87,487.26,119.07,512.62,15.85
+8,2022,Ford,Escape Plug-in Hybrid,Sport utility vehicle: Small,37.29,3.3,8.85,9.98,9.33,487.26,77.23,517.09,11.3
+9,2022,Hyundai,IONIQ Plug-in Hybrid,Mid-size,29.21,2.3,7.24,7.4,7.24,592.91,74.01,616.28,12.7
+10,2022,Hyundai,Santa Fe Plug-in Hybrid,Sport utility vehicle: Small,31.08,3.4,11.42,11.75,11.58,407.09,111.02,431.95,9.14
+11,2022,Hyundai,Tucson Plug-in Hybrid,Sport utility vehicle: Small,32.94,1.7,10.94,10.62,10.78,389.06,99.76,415.41,19.38
+12,2022,Jeep,Grand Cherokee 4xe,Sport utility vehicle: Standard,26.1,3.4,16.57,15.61,16.09,446.86,176.99,467.74,7.68
+13,2022,Jeep,Wrangler 4xe,Sport utility vehicle: Small,21.75,2.4,18.66,19.15,18.83,346.18,230.09,363.58,9.06
+14,2022,Kia,Niro Plug-in Hybrid,Station wagon: Small,26.1,2.25,7.88,8.53,8.21,530.14,90.1,551.02,11.6
+15,2022,Kia,Sorento Plug-in Hybrid,Sport utility vehicle: Small,31.7,3.4,10.78,11.42,11.1,423.24,104.58,448.6,9.32
+16,2022,Lexus,NX 450h+ AWD,Sport utility vehicle: Small,37.91,4.5,9.98,11.26,10.62,518.96,86.89,549.29,8.42
+17,2022,Lincoln,Aviator Grand Touring,Sport utility vehicle: Standard,21.13,3.5,17.54,15.45,16.57,443.13,209.17,460.03,6.04
+18,2022,Lincoln,Corsair Grand Touring,Sport utility vehicle: Small,27.97,3.4,11.1,11.75,11.26,400.87,119.07,423.25,8.23
+19,2022,MINI,Cooper SE Countryman ALL4,Mid-size,18.02,3.0,13.03,12.71,12.87,280.3,175.38,294.72,6.01
+20,2022,Mitsubishi,Outlander PHEV AWD,Sport utility vehicle: Small,24.24,4.0,14.8,14.48,14.64,292.11,165.73,311.5,6.06
+21,2022,Porsche,Cayenne E-Hybrid,Sport utility vehicle: Standard,16.78,3.0,18.99,17.06,18.18,413.92,257.44,427.34,5.59
+22,2022,Porsche,Cayenne Turbo S E-Hybrid,Sport utility vehicle: Standard,14.92,3.0,22.2,19.47,20.92,359.23,320.19,371.17,4.97
+23,2022,Porsche,Panamera 4 E-Hybrid,Full-size,19.27,3.0,18.34,16.09,17.38,463.02,231.7,478.44,6.42
+24,2022,Porsche,Panamera 4S E-Hybrid,Full-size,19.27,3.0,18.34,16.25,17.38,461.16,236.52,476.58,6.42
+25,2022,Porsche,Panamera Turbo S E-Hybrid,Full-size,16.78,3.0,21.24,17.38,19.47,413.3,275.14,426.72,5.59
+26,2022,Subaru,Crosstrek Hybrid AWD,Sport utility vehicle: Small,16.78,2.0,10.62,10.94,10.78,464.26,151.25,477.68,8.39
+27,2022,Toyota,Prius Prime,Mid-size,24.86,2.0,6.92,7.08,6.92,618.4,78.84,638.29,12.43
+28,2022,Toyota,RAV4 Prime,Sport utility vehicle: Small,42.26,4.5,9.17,10.3,9.65,566.19,70.8,600.0,9.39
+29,2022,Volvo,S90 T8 AWD Recharge,Mid-size,21.13,3.0,13.35,12.07,12.71,472.96,160.9,489.86,7.04
+30,2022,Volvo,S90 T8 AWD Recharge Extended Range,Mid-size,37.91,5.0,13.68,12.23,13.03,464.89,104.58,495.22,7.58
+31,2022,Volvo,V60 T8 AWD Recharge,Station wagon: Small,21.75,3.0,13.52,11.26,12.55,485.39,151.25,502.79,7.25
+32,2022,Volvo,V60 T8 AWD Recharge Extended Range,Station wagon: Small,39.78,5.0,12.87,11.58,12.23,492.23,93.32,524.05,7.96
+33,2022,Volvo,XC60 T8 AWD Recharge,Sport utility vehicle: Small,19.27,3.0,15.61,14.0,14.96,477.94,202.73,493.36,6.42
+34,2022,Volvo,XC60 T8 AWD Recharge Extended Range,Sport utility vehicle: Small,36.05,5.0,13.68,13.68,13.68,520.82,115.85,549.66,7.21
+35,2022,Volvo,XC90 T8 AWD Recharge,Sport utility vehicle: Standard,18.02,3.0,14.64,13.52,14.16,505.28,193.08,519.7,6.01
+36,2022,Volvo,XC90 T8 AWD Recharge Extended Range,Sport utility vehicle: Standard,36.05,5.0,14.8,13.84,14.32,495.96,125.5,524.8,7.21
+37,2023,Audi,Q5 55 TFSI e quattro,Sport utility vehicle: Small,23.0,3.0,14.96,14.0,14.48,372.9,148.03,391.3,7.67
+38,2023,Bentley,Bentayga Hybrid,Sport utility vehicle: Standard,19.27,3.0,21.4,15.77,18.83,405.22,222.04,420.64,6.42
+39,2023,Bentley,Flying Spur Hybrid,Mid-size,21.13,3.0,22.04,17.22,19.79,405.84,251.0,422.74,7.04
+40,2023,BMW,530e xDrive Sedan,Mid-size,19.27,3.0,16.89,13.52,15.29,302.05,202.73,317.47,6.42
+41,2023,BMW,X3 xDrive30e,Sport utility vehicle: Small,18.02,3.0,18.34,13.84,16.25,312.0,207.56,326.42,6.01
+42,2023,BMW,X5 xDrive45e,Sport utility vehicle: Standard,31.08,5.0,19.63,17.06,18.5,374.15,176.99,399.01,6.22
+43,2023,BMW,XM,Sport utility vehicle: Standard,31.08,7.0,32.02,22.37,27.67,267.87,244.57,292.73,4.44
+44,2023,Chrysler,Pacifica Hybrid,Minivan,31.7,2.0,12.87,12.71,12.87,487.26,119.07,512.62,15.85
+45,2023,Ford,Escape Plug-in Hybrid,Sport utility vehicle: Small,37.29,3.4,9.01,10.14,9.49,479.18,78.84,509.01,10.97
+46,2023,Hyundai,Santa Fe Plug-in Hybrid,Sport utility vehicle: Small,31.08,3.4,11.42,11.75,11.58,407.09,111.02,431.95,9.14
+47,2023,Hyundai,Tucson Plug-in Hybrid,Sport utility vehicle: Small,32.94,1.7,10.94,10.62,10.78,389.06,99.76,415.41,19.38
+48,2023,Jeep,Grand Cherokee 4xe,Sport utility vehicle: Standard,26.1,3.4,16.57,15.61,16.09,446.86,176.99,467.74,7.68
+49,2023,Jeep,Wrangler 4xe,Sport utility vehicle: Small,21.75,2.4,18.66,19.15,18.83,346.18,230.09,363.58,9.06
+50,2023,Kia,Niro Plug-in Hybrid,Station wagon: Small,34.18,2.8,7.4,7.88,7.72,485.39,67.58,512.73,12.21
+51,2023,Kia,Sorento Plug-in Hybrid,Sport utility vehicle: Small,31.7,3.4,10.78,11.42,11.1,423.24,104.58,448.6,9.32
+52,2023,Kia,Sportage Plug-in Hybrid,Sport utility vehicle: Small,34.18,2.0,10.62,10.78,10.78,392.79,96.54,420.13,17.09
+53,2023,Lexus,NX 450h+ AWD,Sport utility vehicle: Small,37.91,4.5,9.98,11.26,10.62,518.96,86.89,549.29,8.42
+54,2023,Lincoln,Aviator Grand Touring,Sport utility vehicle: Standard,21.13,3.5,17.54,15.45,16.57,443.13,209.17,460.03,6.04
+55,2023,Lincoln,Corsair Grand Touring,Sport utility vehicle: Small,26.72,3.2,11.1,11.91,11.42,397.14,122.28,418.52,8.35
+56,2023,Mercedes-Benz,S 580e 4MATIC Sedan,Full-size,55.94,2.25,18.5,13.19,16.09,417.03,107.8,461.78,24.86
+57,2023,MINI,Cooper SE Countryman ALL4,Mid-size,18.02,3.0,13.03,12.71,12.87,280.3,175.38,294.72,6.01
+58,2023,Mitsubishi,Outlander PHEV AWD,Sport utility vehicle: Standard,37.91,6.5,14.8,14.0,14.48,389.06,112.63,419.39,5.83
+59,2023,Subaru,Crosstrek Hybrid AWD,Sport utility vehicle: Small,16.78,2.0,10.62,10.94,10.78,464.26,151.25,477.68,8.39
+60,2023,Toyota,Prius Prime SE,Mid-size,44.75,4.0,7.08,7.4,7.24,553.14,49.88,588.94,11.19
+61,2023,Toyota,Prius Prime XSE,Mid-size,39.78,4.0,7.56,8.04,7.88,513.36,59.53,545.18,9.94
+62,2023,Toyota,RAV4 Prime,Sport utility vehicle: Small,42.26,4.5,9.17,10.3,9.65,566.19,70.8,600.0,9.39
+63,2023,Volvo,S90 T8 AWD Recharge,Mid-size,37.91,5.0,13.68,12.23,13.03,464.89,104.58,495.22,7.58
+64,2023,Volvo,V60 T8 AWD Recharge,Station wagon: Small,39.78,5.0,12.87,11.58,12.23,492.23,93.32,524.05,7.96
+65,2023,Volvo,XC60 T8 AWD Recharge,Sport utility vehicle: Small,36.05,5.0,13.68,13.68,13.68,520.82,115.85,549.66,7.21
+66,2023,Volvo,XC90 T8 AWD Recharge,Sport utility vehicle: Standard,32.94,5.0,14.64,13.84,14.32,499.07,131.94,525.42,6.59
+67,2024,Alfa Romeo,Tonale PHEV,Sport utility vehicle: Small,32.94,4.0,13.03,13.03,13.03,323.18,120.68,349.53,8.24
+68,2024,Audi,Q5 55 TFSI e quattro,Sport utility vehicle: Small,24.24,3.0,15.12,14.0,14.64,369.79,149.64,389.18,8.08
+69,2024,Bentley,Bentayga Hybrid,Sport utility vehicle: Standard,21.13,3.0,19.79,16.25,18.18,415.16,205.95,432.06,7.04
+70,2024,Bentley,Flying Spur Hybrid,Mid-size,21.13,3.0,22.04,17.22,19.79,405.84,251.0,422.74,7.04
+71,2024,BMW,750e xDrive Sedan,Full-size,34.18,5.0,15.93,14.16,15.12,431.95,131.94,459.29,6.84
+72,2024,BMW,X3 xDrive30e,Sport utility vehicle: Small,18.02,3.0,18.34,13.84,16.25,312.0,207.56,326.42,6.01
+73,2024,BMW,X5 xDrive50e,Sport utility vehicle: Standard,39.15,3.0,17.54,16.41,17.06,403.98,130.33,435.3,13.05
+74,2024,BMW,XM,Sport utility vehicle: Standard,31.08,7.0,32.02,22.37,27.67,267.87,244.57,292.73,4.44
+75,2024,BMW,XM Label Red,Sport utility vehicle: Standard,31.08,7.0,32.18,21.72,27.51,270.98,255.83,295.84,4.44
+76,2024,Chrysler,Pacifica Hybrid,Minivan,31.7,2.0,12.87,12.71,12.87,487.26,119.07,512.62,15.85
+77,2024,Dodge,Hornet R/T PHEV,Sport utility vehicle: Small,32.94,4.0,13.03,13.03,13.03,323.18,120.68,349.53,8.24
+78,2024,Ford,Escape Plug-in Hybrid,Sport utility vehicle: Small,37.29,3.4,9.01,10.14,9.49,479.18,78.84,509.01,10.97
+79,2024,Hyundai,Tucson Plug-in Hybrid,Sport utility vehicle: Small,32.94,1.7,10.94,10.62,10.78,389.06,99.76,415.41,19.38
+80,2024,Jeep,Grand Cherokee 4xe,Sport utility vehicle: Standard,26.1,3.4,16.57,15.61,16.09,446.86,176.99,467.74,7.68
+81,2024,Jeep,Wrangler 4xe,Sport utility vehicle: Small,21.75,2.4,18.66,19.15,18.83,346.18,230.09,363.58,9.06
+82,2024,Kia,Niro Plug-in Hybrid,Sport utility vehicle: Small,34.18,2.8,7.4,7.88,7.72,485.39,67.58,512.73,12.21
+83,2024,Kia,Sorento Plug-in Hybrid,Sport utility vehicle: Small,31.7,3.4,10.78,11.42,11.1,423.24,104.58,448.6,9.32
+84,2024,Kia,Sportage Plug-in Hybrid,Sport utility vehicle: Small,34.18,2.0,10.62,10.78,10.78,392.79,96.54,420.13,17.09
+85,2024,Lexus,NX 450h+ AWD,Sport utility vehicle: Small,37.91,4.5,9.98,11.26,10.62,518.96,86.89,549.29,8.42
+86,2024,Lexus,RX 450h+ AWD,Sport utility vehicle: Standard,37.29,2.5,10.3,11.42,10.78,508.39,88.5,538.22,14.92
+87,2024,Lincoln,Corsair Grand Touring,Sport utility vehicle: Small,27.97,3.4,11.1,11.75,11.42,399.01,119.07,421.39,8.23
+88,2024,Mazda,CX-90 PHEV 4WD,Sport utility vehicle: Standard,26.1,2.1,15.93,14.0,15.12,464.26,168.94,485.14,12.43
+89,2024,Mercedes-Benz,GLE 450e 4MATIC SUV ,Sport utility vehicle: Standard,47.86,2.75,16.89,14.64,15.93,412.06,101.37,450.35,17.4
+90,2024,Mercedes-Benz,S 580e 4MATIC Sedan,Full-size,45.99,2.25,18.5,13.19,16.09,426.97,111.02,463.76,20.44
+91,2024,Mitsubishi,Outlander PHEV AWD,Sport utility vehicle: Standard,37.91,6.5,14.8,14.0,14.48,389.06,112.63,419.39,5.83
+92,2024,Toyota,Prius Prime SE,Mid-size,44.75,4.0,7.08,7.4,7.24,553.14,49.88,588.94,11.19
+93,2024,Toyota,Prius Prime XSE,Mid-size,39.78,4.0,7.56,8.04,7.88,513.36,59.53,545.18,9.94
+94,2024,Toyota,RAV4 Prime,Sport utility vehicle: Small,42.26,4.5,9.17,10.3,9.65,566.19,70.8,600.0,9.39
+95,2024,Volvo,S90 T8 AWD Recharge,Mid-size,37.91,5.0,13.68,12.23,13.03,464.89,104.58,495.22,7.58
+96,2024,Volvo,V60 T8 AWD Recharge,Station wagon: Small,39.78,5.0,12.87,11.58,12.23,492.23,93.32,524.05,7.96
+97,2024,Volvo,XC60 T8 AWD Recharge,Sport utility vehicle: Small,36.05,5.0,13.68,13.68,13.68,520.82,115.85,549.66,7.21
+98,2024,Volvo,XC90 T8 AWD Recharge,Sport utility vehicle: Standard,32.94,5.0,14.64,13.84,14.32,499.07,131.94,525.42,6.59

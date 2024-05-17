@@ -1,6 +1,6 @@
 # Proyecto de Análisis de Transporte y Calidad del Aire en NYC
 
-(https://github.com/LScelza/Proyecto-final/blob/main/scr/Taxis.png) 
+(https://github.com/LScelza/Proyecto-final/blob/main/imagenes/Taxis.png) 
 
 ## Contexto
 
@@ -12,11 +12,11 @@ El cambio climático se ha acelerado a niveles sin precedentes debido a las acti
 
 ## La empresa
 
-(https://github.com/LScelza/Proyecto-final/blob/main/scr/Lumen.png) 
+(https://github.com/LScelza/Proyecto-final/blob/main/imagenes/Lumen.png) 
 
 ## Integrantes
 
-(https://github.com/LScelza/Proyecto-final/blob/main/scr/Integrantes.png) 
+(https://github.com/LScelza/Proyecto-final/blob/main/imagenes/Integrantes.png) 
 
 ## Nuestro Rol
 
@@ -105,7 +105,7 @@ Para entender mejor los conjuntos de datos y extraer información relevante, rea
   - **Resultados**: Determinamos que los vehículos híbridos enchufables tienen una alta eficiencia en entornos urbanos con baja velocidad y frecuentes paradas.
   - [EDA Rendimiento híbridos enchufables](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_hibridos_enchufables.ipynb)
 
-(https://github.com/LScelza/Proyecto-final/blob/main/scr/EDA.png) 
+(https://github.com/LScelza/Proyecto-final/blob/main/imagenes/EDA.png) 
 
 - **EDA sobre distribución y disponibilidad de estaciones de carga**:
   - **Objetivo**: Evaluar la cobertura y accesibilidad de las estaciones de carga.
@@ -113,7 +113,7 @@ Para entender mejor los conjuntos de datos y extraer información relevante, rea
   - **Resultados**: Identificamos áreas con buena cobertura y zonas que requieren una mayor infraestructura de carga.
   - [EDA Estaciones de carga](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_fuel_charging_stations.ipynb)
 
-(https://github.com/LScelza/Proyecto-final/blob/main/scr/Estaciones.png) 
+(https://github.com/LScelza/Proyecto-final/blob/main/imagenes/Estaciones.png) 
 
 ### 5. Análisis Profundo y Conclusiones Preliminares
 
@@ -156,13 +156,13 @@ Para manejar eficientemente los datos analizados, diseñamos y estructuramos una
   - **Metodología**: Implementamos las tablas en la base de datos y cargamos los datos transformados, verificando la integridad y calidad de los datos cargados.
   - **Detalles**: Utilizamos procedimientos almacenados para automatizar la carga de datos y realizar validaciones para asegurar que los datos cumplieran con los estándares de calidad.
 
-(https://github.com/LScelza/Proyecto-final/blob/main/scr/ER.png) 
+(https://github.com/LScelza/Proyecto-final/blob/main/imagenes/ER.png) 
 
 ### 7. Pipeline y ETL Automatizado
 
 Para automatizar y mejorar la eficiencia del proceso ETL, utilizamos las siguientes herramientas en la plataforma GCP:
 
-(https://github.com/LScelza/Proyecto-final/blob/main/scr/Pipeline.png) 
+(https://github.com/LScelza/Proyecto-final/blob/main/imagenes/Pipeline.png) 
 
 - **Cloud Functions para ETL Automatizado**:
   - **Objetivo**: Automatizar la extracción, transformación y carga de datos.

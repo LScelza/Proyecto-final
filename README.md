@@ -10,13 +10,17 @@ Los datos generados por estos servicios incluyen información sobre la ubicació
 
 El cambio climático se ha acelerado a niveles sin precedentes debido a las actividades humanas, principalmente la necesidad de energía obtenida a partir de combustibles fósiles. El impacto del desarrollo energético en el ambiente y los consumos generados llevan a las compañías a tomar acción para intervenir y mejorar la generación y consumo de energía.
 
-## Nombre de la Empresa
+## La empresa
 
-# [Lumen LLC](https://github.com/LScelza/Proyecto-final/blob/main/scr/Lumen.png) 
+(https://github.com/LScelza/Proyecto-final/blob/main/scr/Lumen.png) 
+
+## Integrantes
+
+(https://github.com/LScelza/Proyecto-final/blob/main/scr/Integrantes.png) 
 
 ## Nuestro Rol
 
-Lumen es una empresa de servicios de consultoría. Actualmente fuimos contratados para realizar un análisis de viabilidad para implementar una flota de vehículos eléctricos en NYC. Con una visión de un futuro menos contaminado y adaptándonos a las tendencias del mercado, queremos corroborar la relación entre el beneficio económico de estos medios de transporte particulares y la calidad del aire, así como la contaminación sonora, para estudiar la posibilidad de implementar vehículos eléctricos en nuestra flota.
+Lumen LLC es una empresa de servicios de consultoría. Actualmente fuimos contratados para realizar un análisis de viabilidad para implementar una flota de vehículos eléctricos en NYC. Con una visión de un futuro menos contaminado y adaptándonos a las tendencias del mercado, queremos corroborar la relación entre el beneficio económico de estos medios de transporte particulares y la calidad del aire, así como la contaminación sonora, para estudiar la posibilidad de implementar vehículos eléctricos en nuestra flota.
 
 Debido a que sería una unidad de negocio nueva, se pretende hacer un análisis preliminar del movimiento de los taxis en la ciudad de Nueva York, para obtener un marco de referencia y poder tomar decisiones bien fundamentadas.
 

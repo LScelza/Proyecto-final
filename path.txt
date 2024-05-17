@@ -1,6 +1,12 @@
 verdes_01_21 = '../Datasets/green_tripdata_2021-01.parquet'
 
+rendimiento_hibrido_enchufable = '../Datasets/Rendimiento_hibrido_enchufable.csv'
+
+ETL_hibridos = '../Datasets/ETL_hibridos.csv'
+
 ETL = '../ETL/Prueba/ETL.csv'
 
 EDA = '../EDA/Prueba/EDA.csv'
+
+rendimiento_hibridos_limpio = '../Datasets/rendimiento_hibridos_limpio.csv'
 

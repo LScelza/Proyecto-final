@@ -1,6 +1,7 @@
 verdes_01_21 = '../Datasets/green_tripdata_2021-01.parquet'
 air_quality_24 = '../Datasets/Air_Quality_20240228.csv'
 rendimiento_hibrido_enchufable = '../Datasets/Rendimiento_hibrido_enchufable.csv'
+Alternative_Fuel = "../Datasets/Alternative Fuel Vehicles US.csv"
 
 ETL = '../ETL/Prueba/ETL.csv'
 

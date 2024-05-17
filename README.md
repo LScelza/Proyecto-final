@@ -1,5 +1,7 @@
 # Proyecto de Análisis de Transporte y Calidad del Aire en NYC
 
+(https://github.com/LScelza/Proyecto-final/blob/main/scr/Taxis.png) 
+
 ## Contexto
 
 En la ciudad de Nueva York, los servicios de taxis y de viajes compartidos en vehículos como Uber han transformado la forma en que las personas se desplazan. Estos servicios ofrecen una alternativa conveniente y relativamente accesible al transporte público y al alquiler de automóviles. Además, generan una gran cantidad de datos que pueden ser procesados y analizados por consultoras, empresas, organismos públicos y estudiantes de Ciencias de Datos.
@@ -10,11 +12,11 @@ El cambio climático se ha acelerado a niveles sin precedentes debido a las acti
 
 ## Nombre de la Empresa
 
-**Lumen LLC**
+# [Lumen LLC](https://github.com/LScelza/Proyecto-final/blob/main/scr/Lumen.png) 
 
 ## Nuestro Rol
 
-Lumen es una empresa de servicios de transporte de pasajeros, actualmente operando en el sector de micros de media y larga distancia. Estamos interesados en invertir en el sector de transporte de pasajeros con automóviles. Con una visión de un futuro menos contaminado y adaptándonos a las tendencias del mercado, queremos corroborar la relación entre estos medios de transporte particulares y la calidad del aire, así como la contaminación sonora, para estudiar la posibilidad de implementar vehículos eléctricos en nuestra flota.
+Lumen es una empresa de servicios de consultoría. Actualmente fuimos contratados para realizar un análisis de viabilidad para implementar una flota de vehículos eléctricos en NYC. Con una visión de un futuro menos contaminado y adaptándonos a las tendencias del mercado, queremos corroborar la relación entre el beneficio económico de estos medios de transporte particulares y la calidad del aire, así como la contaminación sonora, para estudiar la posibilidad de implementar vehículos eléctricos en nuestra flota.
 
 Debido a que sería una unidad de negocio nueva, se pretende hacer un análisis preliminar del movimiento de los taxis en la ciudad de Nueva York, para obtener un marco de referencia y poder tomar decisiones bien fundamentadas.
 
@@ -99,11 +101,15 @@ Para entender mejor los conjuntos de datos y extraer información relevante, rea
   - **Resultados**: Determinamos que los vehículos híbridos enchufables tienen una alta eficiencia en entornos urbanos con baja velocidad y frecuentes paradas.
   - [EDA Rendimiento híbridos enchufables](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_hibridos_enchufables.ipynb)
 
+(https://github.com/LScelza/Proyecto-final/blob/main/scr/EDA.png) 
+
 - **EDA sobre distribución y disponibilidad de estaciones de carga**:
   - **Objetivo**: Evaluar la cobertura y accesibilidad de las estaciones de carga.
   - **Metodología**: Utilizamos mapas de geolocalización y análisis de densidad para evaluar la distribución de las estaciones de carga en NYC.
   - **Resultados**: Identificamos áreas con buena cobertura y zonas que requieren una mayor infraestructura de carga.
   - [EDA Estaciones de carga](https://github.com/LScelza/Proyecto-final/blob/main/EDA/EDA_fuel_charging_stations.ipynb)
+
+(https://github.com/LScelza/Proyecto-final/blob/main/scr/Estaciones.png) 
 
 ### 5. Análisis Profundo y Conclusiones Preliminares
 
@@ -146,9 +152,13 @@ Para manejar eficientemente los datos analizados, diseñamos y estructuramos una
   - **Metodología**: Implementamos las tablas en la base de datos y cargamos los datos transformados, verificando la integridad y calidad de los datos cargados.
   - **Detalles**: Utilizamos procedimientos almacenados para automatizar la carga de datos y realizar validaciones para asegurar que los datos cumplieran con los estándares de calidad.
 
+(https://github.com/LScelza/Proyecto-final/blob/main/scr/ER.png) 
+
 ### 7. Pipeline y ETL Automatizado
 
 Para automatizar y mejorar la eficiencia del proceso ETL, utilizamos las siguientes herramientas en la plataforma GCP:
+
+(https://github.com/LScelza/Proyecto-final/blob/main/scr/Pipeline.png) 
 
 - **Cloud Functions para ETL Automatizado**:
   - **Objetivo**: Automatizar la extracción, transformación y carga de datos.

@@ -154,7 +154,7 @@ Para automatizar y mejorar la eficiencia del proceso ETL, utilizamos las siguien
   - **Objetivo**: Automatizar la extracción, transformación y carga de datos.
   - **Metodología**: Desarrollamos funciones en Google Cloud Functions que se activan en base a eventos para extraer datos de diversas fuentes, transformarlos según nuestras necesidades y cargarlos en BigQuery.
   - **Detalles**: Las Cloud Functions fueron programadas para manejar grandes volúmenes de datos de manera eficiente, asegurando que los procesos se ejecuten de manera escalable y sin interrupciones.
-  - [Cloud Functions]('https://github.com/LScelza/Proyecto-final/tree/main/Cloud%20functions')
+  - [Cloud Functions](https://github.com/LScelza/Proyecto-final/tree/main/Cloud%20functions)
 
 - **BigQuery para Carga de Datos Transformados**:
   - **Objetivo**: Almacenar y analizar grandes volúmenes de datos transformados.

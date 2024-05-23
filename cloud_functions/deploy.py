@@ -1,3 +1,16 @@
+import subprocess
+import sys
+
+def install_requirements(requirements_file):
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", requirements_file])
+    except subprocess.CalledProcessError as e:
+        print(f"Error al instalar los paquetes desde {requirements_file}: {e}")
+
+
+install_requirements("../requirements.txt")
+
+
 import streamlit as st
 import requests
 

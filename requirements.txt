@@ -37,7 +37,7 @@ Pygments==2.18.0
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 pytz==2024.1
-pywin32==306
+
 pyzmq==26.0.3
 requests==2.31.0
 seaborn==0.13.2

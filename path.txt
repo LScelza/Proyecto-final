@@ -32,4 +32,7 @@ modelo_precio_entrenado = '../modelos_ML/modelos_entrenados/modelo_precio_entren
 
 modelo_cargo_entrenado = '../modelos_ML/modelos_entrenados/modelo_cargo_entrenado.joblib'
 
+modelo_distancia_entrenado = '../modelos_ML/modelos_entrenados/modelo_distancia_entrenado.joblib'
+
+dataset_entrenamiento_distancia = '../modelos_ML/archivos_entrenamiento/dataset_entrenamiento_distancia.parquet'
 

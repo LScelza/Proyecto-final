@@ -1,4 +1,4 @@
-# Proyecto de Análisis de viabilidad de flota de vehículos amgables con el medio ambiente
+# Proyecto de Análisis de viabilidad de flota de vehículos amigables con el medio ambiente
 
 ![Taxis](https://github.com/LScelza/Proyecto-final/blob/main/imagenes/Taxis.png) 
 
@@ -18,13 +18,13 @@ El cambio climático se ha acelerado a niveles sin precedentes debido a las acti
 
 ![Integrantes](https://github.com/LScelza/Proyecto-final/blob/main/imagenes/Integrantes.png) 
 
-## Nuestro Rol
+## Nuestro rol
 
 Lumen LLC es una empresa de servicios de consultoría. Actualmente fuimos contratados para realizar un análisis de viabilidad para implementar una flota de vehículos eléctricos en NYC. Con una visión de un futuro menos contaminado y adaptándonos a las tendencias del mercado, queremos corroborar la relación entre el beneficio económico de estos medios de transporte particulares y la calidad del aire, así como la contaminación sonora, para estudiar la posibilidad de implementar vehículos eléctricos en nuestra flota.
 
 Debido a que sería una unidad de negocio nueva, se pretende hacer un análisis preliminar del movimiento de los taxis en la ciudad de Nueva York, para obtener un marco de referencia y poder tomar decisiones bien fundamentadas.
 
-## ¿Qué Hicimos?
+## ¿Qué hicimos?
 
 ### 1. Análisis Preliminar de la Situación Actual
 

@@ -162,8 +162,6 @@ Para manejar eficientemente los datos analizados, diseñamos y estructuramos una
 
 Para automatizar y mejorar la eficiencia del proceso ETL, utilizamos las siguientes herramientas en la plataforma GCP:
 
-![Pipeline](https://github.com/LScelza/Proyecto-final/blob/main/imagenes/Pipeline.png) 
-
 - **Cloud Functions para ETL Automatizado**:
   - **Objetivo**: Automatizar la extracción, transformación y carga de datos.
   - **Metodología**: Desarrollamos funciones en Google Cloud Functions que se activan en base a eventos para extraer datos de diversas fuentes, transformarlos según nuestras necesidades y cargarlos en BigQuery.
@@ -213,7 +211,7 @@ Para hacer accesibles los modelos de Machine Learning y facilitar su uso en tiem
   - **Objetivo**: Proporcionar una interfaz interactiva para acceder y utilizar los modelos de ML.
   - **Metodología**: Desarrollamos una aplicación en Streamlit que permite a los usuarios realizar solicitudes HTTP. Estas solicitudes se envían a una Cloud Function alojada en Google Cloud Platform (GCP).
   - **Detalles**: La Cloud Function se encarga de cargar los modelos entrenados desde un bucket específico en GCP, realizar las predicciones y enviar los resultados de vuelta a la aplicación de Streamlit. Esto asegura que los modelos se ejecuten en un entorno escalable y eficiente, y que los resultados se presenten de manera rápida y accesible.
-  - [Streamlit App](prediccion.streamlit.app)
+  - [Streamlit App]([prediccion.streamlit.app](https://prediccion.streamlit.app/))
 
 - **Automatización y Escalabilidad**:
   - **Objetivo**: Asegurar que los procesos de predicción sean automatizados y escalables.

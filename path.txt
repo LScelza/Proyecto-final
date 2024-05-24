@@ -1,7 +1,11 @@
 verdes_01_21 = '../Datasets/green_tripdata_2021-01.parquet'
+
 air_quality_24 = '../Datasets/Air_Quality_20240228.csv'
+
 estaciones_carga = '../Datasets/Electric and Alternative Fuel Charging Stations.csv'
+
 rendimiento_hibrido_enchufable = '../Datasets/Rendimiento_hibrido_enchufable.csv'
+
 Alternative_Fuel = "../Datasets/Alternative Fuel Vehicles US.csv"
 
 ETL = '../ETL/Prueba/ETL.csv'
@@ -15,4 +19,17 @@ rendimiento_hibridos_limpio = '../Datasets/Datasets Limpios/rendimiento_hibridos
 estaciones_carga = '../Datasets/Datasets Limpios/estaciones_ETL.csv'
 
 air_ETL = '../Datasets/Datasets Limpios/air_ETL.csv'
+
 air_EDA = '../Datasets/Datasets Limpios/air_limpios.csv'
+
+df0 = '../modelos_ML/archivos_entrenamiento/green_tripdata_2023-10_limpio.parquet'
+
+df1 = '../modelos_ML/archivos_entrenamiento/green_tripdata_2023-11_limpio.parquet'
+
+df2 = '../modelos_ML/archivos_entrenamiento/green_tripdata_2023-12_limpio.parquet'
+
+modelo_precio_entrenado = '../modelos_ML/modelos_entrenados/modelo_precio_entrenado.joblib'
+
+modelo_cargo_entrenado = '../modelos_ML/modelos_entrenados/modelo_cargo_entrenado.joblib'
+
+

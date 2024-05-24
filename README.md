@@ -180,4 +180,49 @@ Para automatizar y mejorar la eficiencia del proceso ETL, utilizamos las siguien
   - **Metodología**: Conectamos BigQuery con PowerBI para crear dashboards interactivos que permiten visualizar los datos de manera dinámica y facilitar la toma de decisiones.
   - **Detalles**: Diseñamos varias visualizaciones clave, incluyendo mapas de calor de demanda de taxis, gráficos de tendencias de uso y comparaciones de costos operativos entre diferentes tipos de vehículos.
 
+### 8. Modelos de Machine Learning (ML)
 
+Para agregar valor a los datos y proporcionar información relevante para la toma de decisiones, desarrollamos tres modelos de Machine Learning (ML). Estos modelos fueron seleccionados después de probar distintos algoritmos de ML y Deep Learning (DL), incluyendo árboles de decisión, random forest, y redes neuronales artificiales (ANN). A continuación, se describen los modelos seleccionados y su implementación:
+
+- **Modelo de predicción de precios**:
+  - **Objetivo**: Predecir precios de viajes en función de la estimación de tiempo y distancia.
+  - **Metodología**: Utilizamos un árbol de regresión para desarrollar este modelo. Se entrenó con datos históricos de viajes que incluían la duración del viaje, la distancia recorrida y las tarifas cobradas.
+  - **Aplicación**: Este modelo permite a la empresa estimar las ganancias potenciales de futuros viajes. Puede ser utilizado en combinación con consultas específicas en BigQuery para proporcionar información detallada sobre las ganancias estimadas para diferentes rutas y condiciones.
+  - **Resultados esperados**: Una mayor precisión en la estimación de tarifas, lo que ayuda a mejorar la planificación financiera y la gestión de precios.
+  - [Modelo de predicción de precios](https://github.com/LScelza/Proyecto-final/blob/main/modelos_ML/Modelo_precio.ipynb)
+
+- **Modelo de predicción de recargo por tráfico**:
+  - **Objetivo**: Estimar recargos por tráfico basándose en datos históricos.
+  - **Metodología**: Desarrollamos un modelo que analiza datos históricos de recargos por tráfico para predecir futuros recargos. Aunque no proporciona información directa sobre el tráfico en tiempo real, puede ser complementado con aplicaciones de tráfico en tiempo real para optimizar rutas.
+  - **Aplicación**: Este modelo puede ser utilizado para evaluar la viabilidad de diferentes rutas, optimizando así los tiempos de viaje y reduciendo costos operativos. También se puede combinar con algoritmos de optimización de rutas, como el algoritmo de Dijkstra, para encontrar las rutas más eficientes.
+  - **Resultados esperados**: Reducción en los tiempos de viaje y costos operativos, y una mejora en la satisfacción del cliente al evitar zonas de alto tráfico.
+  -  [Modelo de predicción de recargo por tráfico](https://github.com/LScelza/Proyecto-final/blob/main/modelos_ML/Modelo_cargo.ipynb)
+
+- **Modelo de predicción de distancias**:
+  - **Objetivo**: Predecir distancias de viajes en función de la zona de inicio y la hora del día.
+  - **Metodología**: Utilizamos un random forest para desarrollar este modelo. El modelo se entrenó con datos históricos de viajes, analizando las distancias recorridas desde diferentes zonas en distintos momentos del día.
+  - **Aplicación**: Este modelo es útil para reforzar la asignación de vehículos en zonas con alta demanda en horarios específicos. También puede cruzarse con datos de estaciones de carga para optimizar la logística y la ubicación de los vehículos.
+  - **Resultados esperados**: Mejora en la eficiencia operativa y logística, optimización en la ubicación de estaciones de carga y vehículos, y una mejor gestión de la demanda.
+  - [Modelo de predicción de distancia](https://github.com/LScelza/Proyecto-final/blob/main/modelos_ML/Modelo_distancia.ipynb)
+
+### 9. Deploy
+
+Para hacer accesibles los modelos de Machine Learning y facilitar su uso en tiempo real, realizamos el deploy utilizando la plataforma de Streamlit. El deploy se implementó de la siguiente manera:
+
+- **Implementación en Streamlit**:
+  - **Objetivo**: Proporcionar una interfaz interactiva para acceder y utilizar los modelos de ML.
+  - **Metodología**: Desarrollamos una aplicación en Streamlit que permite a los usuarios realizar solicitudes HTTP. Estas solicitudes se envían a una Cloud Function alojada en Google Cloud Platform (GCP).
+  - **Detalles**: La Cloud Function se encarga de cargar los modelos entrenados desde un bucket específico en GCP, realizar las predicciones y enviar los resultados de vuelta a la aplicación de Streamlit. Esto asegura que los modelos se ejecuten en un entorno escalable y eficiente, y que los resultados se presenten de manera rápida y accesible.
+  - [Streamlit App](prediccion.streamlit.app)
+
+- **Automatización y Escalabilidad**:
+  - **Objetivo**: Asegurar que los procesos de predicción sean automatizados y escalables.
+  - **Metodología**: Utilizamos Cloud Functions para manejar las solicitudes de predicción de manera eficiente. Las funciones se activan en respuesta a eventos y pueden escalar automáticamente para manejar grandes volúmenes de solicitudes.
+  - **Detalles**: Implementamos procedimientos para asegurar que los modelos se actualicen automáticamente cuando se entrenan con nuevos datos, garantizando que siempre se utilicen las versiones más precisas y actualizadas de los modelos.
+
+- **Integración con la infraestructura existente**:
+  - **Objetivo**: Integrar los modelos de ML con las herramientas y sistemas existentes de la empresa.
+  - **Metodología**: Nos aseguramos de que los modelos y la aplicación de Streamlit puedan interactuar con la base de datos en BigQuery y otras herramientas de análisis utilizadas por la empresa.
+  - **Detalles**: Diseñamos la integración de manera que las predicciones y análisis generados por los modelos de ML puedan ser fácilmente incorporados en los informes y dashboards existentes, facilitando así la toma de decisiones basada en datos.
+
+Con estas implementaciones, la empresa Lumen LLC puede aprovechar al máximo los datos recopilados, utilizando herramientas avanzadas de ML para mejorar el rendimiento del negocio y tomar decisiones informadas sobre la implementación de una flota de vehículos eléctricos en Nueva York.
